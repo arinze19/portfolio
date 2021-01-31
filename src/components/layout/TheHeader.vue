@@ -9,7 +9,7 @@
         <transition name="light">
           <div class="light-container" v-if="lightMode">
             <img
-              src="https://www.flaticon.com/svg/vstatic/svg/495/495976.svg?token=exp=1612106343~hmac=a0409d958c356701a7a658c5023f7a7b"
+              src="../../assets/sun.svg"
             />
           </div>
         </transition>
@@ -19,7 +19,7 @@
         <transition name="dark">
           <div class="dark-container" v-if="darkMode">
             <img
-              src="https://www.flaticon.com/svg/vstatic/svg/3643/3643327.svg?token=exp=1612106381~hmac=f3331a4881098760972c2da4993a2a10"
+              src="../../assets/moon.svg"
             />
           </div>
         </transition>

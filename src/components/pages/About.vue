@@ -72,7 +72,7 @@ h2 {
 
 @media (max-width: 768px) {
   p {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   main {

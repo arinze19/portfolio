@@ -1,33 +1,25 @@
 <template>
   <main>
     <div class="wrapper">
-        <div class="icon">🌪️</div>
-        <h1>Hey there! I'm Arinze.</h1>
-        <p>
-          A problem solving, ever learning front-end developer with an eye for
-          pixel perfect designs. also ecstatic and looking to make an impact in
-          e-commerce and fin-tech.
-        </p>
-        <a href="mailto:arinze19@gmail.com"> Lets chat 🐾</a>
+      <div class="icon">🌪️</div>
+      <h1>Hey there! I'm Arinze.</h1>
+      <p>
+        A problem solving, ever learning front-end developer with an eye for
+        pixel perfect designs. also ecstatic and looking to make an impact in
+        e-commerce and fin-tech.
+      </p>
+      <a href="mailto:arinze19@gmail.com"> Lets chat 🐾</a>
     </div>
   </main>
 </template>
-
-
-
-
-<script>
-export default {};
-</script>
 
 <style scoped>
 main {
   display: grid;
   place-content: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 .wrapper {
@@ -71,8 +63,7 @@ a {
   }
 }
 
-
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .wrapper {
     width: 80%;
   }
@@ -86,6 +77,5 @@ a {
     margin-bottom: 15px;
   }
 }
-
 </style>
 

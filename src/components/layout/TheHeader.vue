@@ -1,26 +1,26 @@
 <template>
-  <nav>
+  <nav :class="{ dark: !themeIsLight }">
     <router-link to="/">
       <strong>&lt;arinze /&gt; </strong>
     </router-link>
 
-    <div class="mood-container" @click="changeTheme" :class="{border: darkMode}">
+    <div
+      class="theme-container"
+      @click="changeTheme"
+      :class="{ border: !themeIsLight }"
+    >
       <div class="left">
         <transition name="light">
-          <div class="light-container" v-if="lightMode">
-            <img
-              src="../../assets/sun.svg"
-            />
+          <div class="light-container" v-if="themeIsLight">
+            <img src="../../assets/sun.svg" />
           </div>
         </transition>
       </div>
 
       <div class="right">
         <transition name="dark">
-          <div class="dark-container" v-if="darkMode">
-            <img
-              src="../../assets/moon.svg"
-            />
+          <div class="dark-container" v-if="!themeIsLight">
+            <img src="../../assets/moon.svg" />
           </div>
         </transition>
       </div>
@@ -30,22 +30,39 @@
 
 <script>
 export default {
-  emits: ['change-background'],
+  emits: ["change-theme"],
   data() {
     return {
-      lightMode: true,
-      darkMode: false
+      theme: undefined,
     };
   },
   methods: {
     changeTheme() {
-        this.lightMode = !this.lightMode
-        this.darkMode  = !this.darkMode
+      this.theme = this.theme === "light" ? "dark" : "light";
+      localStorage.setItem("theme", this.theme);
 
-        this.$emit('change-background', { lightMode: this.lightMode, darkMode: this.darkMode})
-    }
-  }
-}
+      this.$emit("change-theme", this.theme);
+    },
+    getTheme() {
+      this.theme = localStorage.getItem("theme") || "light";
+      localStorage.setItem("theme", this.theme);
+
+      this.$emit("change-theme", this.theme);
+    },
+  },
+  computed: {
+    themeIsLight() {
+      if (this.theme === "light") {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
+  created() {
+    this.getTheme();
+  },
+};
 </script>
 
 
@@ -56,7 +73,10 @@ nav {
   justify-content: space-between;
   padding: 30px;
   position: fixed;
+  z-index: 1;
   width: 100vw;
+  background-color: #f25f4c;
+  transition: all 0.3s linear;
 }
 
 strong {
@@ -82,7 +102,7 @@ img {
   height: 100%;
 }
 
-.mood-container {
+.theme-container {
   width: 45px;
   height: 25px;
   border-radius: 15px;
@@ -95,6 +115,14 @@ img {
 
 .border {
   border: 1px solid #ff8906;
+}
+
+.dark {
+  background-color: #0f0e17;
+}
+
+.dark a {
+  color: #ff8906;
 }
 
 .light-enter-from,

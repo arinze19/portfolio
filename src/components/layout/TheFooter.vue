@@ -1,35 +1,34 @@
 <template>
-  <footer>
-    <ul>
-      <li>
-        <router-link to="/about">
-            About
-        </router-link>
-      </li>
-      <li>
-        <a href="https://github.com/arinze19">GitHub</a>
-      </li>
-      <li>
-        <router-link to="/projects">
-            Projects
-        </router-link>
-      </li>
-      <li>
-        <a href="mailto:arinze19@outlook.com">Email</a>
-      </li>
-    </ul>
-  </footer>
+  <div class="footer" :class="{dark: theme === 'light' ? false : true}">
+    <router-link to="/about"> About</router-link>
+    <a href="https://github.com/arinze19">GitHub</a>
+    <router-link to="/projects"> Projects </router-link>
+    <a href="mailto:arinze19@outlook.com">Email</a>
+  </div>
 </template>
 
 
+<script>
+export default {
+  props: ['theme']
+}
+</script>
+
+
 <style scoped>
-ul {
-  display: flex;
-  justify-content: space-around;
+div {
   width: 100%;
   position: fixed;
+  margin: 0 auto;
   bottom: 0;
-  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #f25f4c;
+}
+
+.dark {
+  background-color: #0f0e17;
 }
 
 li {
@@ -37,9 +36,9 @@ li {
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-size: 19px;
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
 }
 </style>
 

@@ -7,7 +7,8 @@ import About    from './components/pages/About.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
-    { path: '/projects', component: Projects }
+    { path: '/projects', component: Projects },
+    { path: '/:notFound(.*)', redirect: '/'}
 ]
 
 const router = createRouter({

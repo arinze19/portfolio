@@ -5,7 +5,7 @@
       <h1>Hey there! I'm Arinze.</h1>
       <p>
         A problem solving, ever learning front-end developer with an eye for
-        pixel perfect designs. also ecstatic and looking to make an impact in
+        pixel perfect designs. Also ecstatic about start-ups and looking to make an impact in
         e-commerce and fin-tech.
       </p>
       <a href="mailto:arinze19@gmail.com"> Lets chat 🐾</a>

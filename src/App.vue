@@ -71,11 +71,8 @@ strong {
 }
 
 .dark {
-  color: white;
-}
-
-.dark {
   background-color: #0f0e17;
+  color: white;
 }
 
 .dark a {

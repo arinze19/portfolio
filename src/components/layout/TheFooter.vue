@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  props: ['theme']
+  props: ['theme'] 
 }
 </script>
 

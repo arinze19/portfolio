@@ -4,6 +4,7 @@
 
     <div class="gif">
       <img src="https://cutt.ly/3kix5rl" />
+      <p>Me when my code finally works</p>
     </div>
 
     <h2>Who?</h2>
@@ -45,7 +46,7 @@ main {
   padding-bottom: 100px;
   width: 50%;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 900px;
   line-height: 1.5;
 }
 
@@ -53,7 +54,12 @@ main {
   width: 100%;
   height: 250px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.gif p {
+  text-align: center;
+  font-size: 14px;
 }
 
 img {

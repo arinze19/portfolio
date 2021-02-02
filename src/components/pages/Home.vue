@@ -19,7 +19,8 @@ main {
   place-content: center;
   width: 100vw;
   height: 100vh;
-  max-width: 1440px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .wrapper {

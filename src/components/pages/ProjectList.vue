@@ -21,7 +21,7 @@ export default {
       projects: [
         {
           name: "Selfish Twenty's",
-          link: "selfish-twentys.netlify.app",
+          link: "https://selfish-twentys.netlify.app",
           description:
             "An E-commerce site for the urban start up brand, selfish twentys. Bringing a new shopping experience to millenials in SSA.",
           tools: ["Vue", "Firebase", "Figma"],

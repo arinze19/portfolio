@@ -23,6 +23,11 @@ export default {
 <style scoped>
 li {
     list-style: none;
+    padding-bottom: 1rem;
+ }
+
+ li:last-child {
+   padding-bottom: 2rem;
  }
 
  a {

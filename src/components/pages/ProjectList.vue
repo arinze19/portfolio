@@ -37,6 +37,12 @@ export default {
           link: "https://vue-http-998df.firebaseapp.com",
           description: "An online repository where beginners in tech can easily connect with mentors and boost their careers through 1-on-1 mentorship training - idea culled from thinkful.com and exercism.io",
           tools: ["Fetch API", "Firebase", "Vue"] 
+        },
+        {
+          name: "Cold Drums",
+          link: "https://arinze19.github.io/colddrumkit.html",
+          description: "coldplay inspired drum kit application. part of wes bos' JavaScript30 challenge",
+          tools: ["Vanilla JavaScript"]
         }
       ],
     };

@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <div>
     <a :href="link" target="_blank">
       <h1>{{ name }}</h1>
     </a>
@@ -10,7 +10,7 @@
       <strong>Built With:</strong> &nbsp;
       <span v-for="tool in tools" :key="tool">{{ tool }}. &nbsp;</span>
     </p>
-  </li>
+  </div>
 </template>
 
 
@@ -21,12 +21,16 @@ export default {
 </script>
 
 <style scoped>
-li {
+li,
+div {
     list-style: none;
     padding-bottom: 1rem;
+    width: 45%;
+    padding: 2rem;
  }
 
- li:last-child {
+ li:last-child,
+ div:last-child {
    padding-bottom: 2rem;
  }
 
@@ -39,13 +43,18 @@ li {
      margin-bottom: 10px;
  }
 
- @media(max-width: 767px) {
+ @media(max-width: 768px) {
     p {
       font-size: 16px;
     }
 
     h1 {
       font-size: 27px;
+    }
+
+    div {
+      width: 90%;
+      margin: 0 auto;
     }
 }
 </style>

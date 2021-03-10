@@ -22,39 +22,40 @@ export default {
     return {
       projects: [
         {
+          name: "velocity meet",
+          link: "https://velocity-meet.netlify.app",
+          description:
+            "Video conferencing software enabling peer-to-peer connection over low latency bandwidth without significant effect on quality of the media stream.",
+          tools: ["PeerJS", "NodeJS", "SocketIO", "Vue", "Axios"],
+        },
+        {
           name: "Selfish Twenty's",
           link: "https://selfish-twentys.netlify.app",
           description:
-            "An E-commerce site for the urban start up brand, selfish twentys. Bringing a new shopping experience to millenials in SSA.",
+            "E-commerce site[Demo] for Urban wears startup brand selfish-twentys. Complete with authentication and checkout functionalities.",
           tools: ["Vue", "Firebase", "Figma"],
         },
         {
           name: "Bookmark-ER",
           link: "http://arinze19.github.io",
           description:
-            "A simple bookmark application for bookmarking interesting links you'd like to visit again as opposed to keeping open tabs in your browser. this is a project originally built to strengthen my knowledge on localStorage api",
+            "Browser based application for storing links you'd like to visit later. Eliminating the need to always have multiple tabs open at once. leverages localStorage API to keep bookmarks saved to the local machine",
           tools: ["localStorage API", "Fetch API", "Vanilla JavaScript"],
         },
         {
           name: "Coach-E",
           link: "https://vue-http-998df.firebaseapp.com",
           description:
-            "An online repository where beginners in tech can easily connect with mentors and boost their careers through 1-on-1 mentorship training - idea culled from thinkful.com and exercism.io",
+            "online repository where tech newbies can connect with mentors in the software industry to better enhance their learning, skyrocket their career path and avoid tutorial hell. complete with authentication and sessions",
           tools: ["Fetch API", "Firebase", "Vue"],
         },
         {
           name: "Cold Drums",
           link: "https://arinze19.github.io/colddrumkit.html",
           description:
-            "coldplay inspired drum kit application. part of wes bos' JavaScript30 challenge",
+            "coldplay inspired drum kit application. modifications made to part of wes bos' JavaScript30 challenge",
           tools: ["Vanilla JavaScript"],
         },
-        {
-          name: "velocity meet",
-          link: "https://velocity-meet.netlify.app",
-          description: "a simple zoom inspired video and audio conferencing software developed to enhance peer-to-peer video meetings due to the pandemic.",
-          tools: ["PeerJS", "NodeJS", "SocketIO", "Vue","Axios"]
-        }
       ],
     };
   },

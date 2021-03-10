@@ -12,28 +12,27 @@
       So, who is this guy, you may be wondering . well to put it simply, I am a
       web developer obsessed with making pixel perfect interfaces for web users.
       <br />
-      I write my code majorly in JavaScript and use Vue extensively for the
-      front-end of my projects(It's really that good guys).
+      I write my code majorly in JavaScript and use React and Vue extensively for creating
+      complex frontend application logic.
       <br />
-      I write API's occasionally and my REST API's are written in NodeJs. I also
-      use MongoDB and Firebase as my databases.
+      I write API's occasionally and my REST API's are written in NodeJs(Express). I also
+      use MongoDB and Firebase as my databases. I also develop my software with a test driven development approach
     </p>
     <p>
       When I'm not deep in thought thinking about why my code doesn't work the
       way i want it to(they work eventually at the end of the day or week...or
       month. and the satisfaction that comes when they finally work is really
       unrivaled) i usually read about start-ups
-      <a href="https://stearsng.com">Here 📈</a> and watch movies
-      <a href="https://netflix.com">Here 🎬</a>, and a huge fan of coldplay, even
-      made a project on them here. I contribute and give back to community using
+      <a href="https://stearsng.com">here 📈</a> and watch movies
+      <a href="https://netflix.com">here 🎬</a>, and a huge fan of coldplay, even
+      made a project on them <a href="https://arinze19.github.io/colddrumkit.html">here</a>. I contribute and give back to community using
       <a href="https://kwanda.co" target="_blank">Kwanda</a>.
       <br />
       I'm really passionate about building products that positively affect lives
       using software and stay up to date with the latest technology
     </p>
     <p>
-      If you read this up to this point then that's really impressive. have a
-      question or want to colaborate on making products that affect millions of
+      If you have a question or want to collaborate on making products that affect millions of
       people positively?
       <a href="mailto:arinze19@outlook.com">Say Hi here 🐾</a>
     </p>

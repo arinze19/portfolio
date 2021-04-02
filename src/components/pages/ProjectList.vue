@@ -36,6 +36,13 @@ export default {
           tools: ["Vue", "Firebase", "Figma"],
         },
         {
+          name: "Pokemon Memo",
+          link: "https://pokemon-memo.netlify.app",
+          description:
+            "Interactive Pokemon inspired Memory card game with 41 active players from 4 continents. Idea from The odin project.",
+          tools: ["React", "Pokemon API"],
+        },
+        {
           name: "Bookmark-ER",
           link: "http://arinze19.github.io",
           description:
@@ -43,18 +50,18 @@ export default {
           tools: ["localStorage API", "Fetch API", "Vanilla JavaScript"],
         },
         {
+          name: "Fast-CV",
+          link: "https://arinze19.github.io/TOP-React-project-2",
+          description:
+            "A CV generator that creates beautifully crafted CV's that convert in  minutes.",
+          tools: ["React"],
+        },
+        {
           name: "Coach-E",
           link: "https://vue-http-998df.firebaseapp.com",
           description:
             "online repository where tech newbies can connect with mentors in the software industry to better enhance their learning, skyrocket their career path and avoid tutorial hell. complete with authentication and sessions",
           tools: ["Fetch API", "Firebase", "Vue"],
-        },
-        {
-          name: "Cold Drums",
-          link: "https://arinze19.github.io/colddrumkit.html",
-          description:
-            "coldplay inspired drum kit application. modifications made to part of wes bos' JavaScript30 challenge",
-          tools: ["Vanilla JavaScript"],
         },
       ],
     };

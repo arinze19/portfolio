@@ -10,13 +10,13 @@
     <h2>Who?</h2>
     <p>
       So, who is this guy, you may be wondering . well to put it simply, I am a
-      web developer obsessed with making pixel perfect interfaces for web users.
+      software developer obsessed with making pixel perfect interfaces for web users.
       <br />
-      I write my code majorly in JavaScript and use React and Vue extensively for creating
+      I write my code majorly in JavaScript and use frameworks like react and vue extensively for creating
       complex frontend application logic.
       <br />
-      I write API's occasionally and my REST API's are written in NodeJs(Express). I also
-      use MongoDB and Firebase as my databases. I also develop my software with a test driven development approach
+      My API's are written in NodeJs(Express). I also
+      use MongoDB and Firebase as my databases often. I also develop my software with a test driven development approach
     </p>
     <p>
       When I'm not deep in thought thinking about why my code doesn't work the
@@ -34,7 +34,7 @@
     <p>
       If you have a question or want to collaborate on making products that affect millions of
       people positively?
-      <a href="mailto:arinze19@outlook.com">Say Hi here 🐾</a>
+      <a href="mailto:arinze19@outlook.com">Say Hi 🐾</a>
     </p>
   </main>
 </template>

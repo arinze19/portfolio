@@ -23,7 +23,7 @@
       way i want it to(they work eventually at the end of the day or week...or
       month. and the satisfaction that comes when they finally work is really
       unrivaled) i usually read about start-ups
-      <a href="https://stearsng.com">here 📈</a> and watch movies
+      <a href="https://techcrunch.com/">here 📈</a> and watch movies
       <a href="https://netflix.com">here 🎬</a>, and a huge fan of coldplay, even
       made a project on them <a href="https://arinze19.github.io/colddrumkit.html">here</a>. I contribute and give back to community using
       <a href="https://kwanda.co" target="_blank">Kwanda</a>.
@@ -34,7 +34,7 @@
     <p>
       If you have a question or want to collaborate on making products that affect millions of
       people positively?
-      <a href="mailto:arinze19@outlook.com">Say Hi 🐾</a>
+      <a href="mailto:arinze19@outlook.com">Say Hi 📫</a>
     </p>
   </main>
 </template>

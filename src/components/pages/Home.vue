@@ -8,7 +8,7 @@
         pixel perfect designs. Also ecstatic about start-ups and looking to make an impact in
         e-commerce and fin-tech.
       </p>
-      <a href="mailto:arinze19@gmail.com"> Lets chat 📫</a>
+      <a href="mailto:arinze19@outlook.com"> Lets chat 📫</a>
     </div>
   </main>
 </template>

@@ -35,7 +35,7 @@ div {
  }
 
  a {
-     text-decoration: none;
+     text-decoration: underline;
  }
 
  p {

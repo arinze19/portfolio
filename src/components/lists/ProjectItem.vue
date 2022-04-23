@@ -1,7 +1,7 @@
 <template>
   <div>
     <a :href="link" target="_blank">
-      <h1>{{ name }}</h1>
+      <h1>{{ name }} ↗</h1>
     </a>
     <p>
       {{ description }}

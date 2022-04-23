@@ -22,6 +22,12 @@ export default {
     return {
       projects: [
         {
+          name: "Octane",
+          link: "https://arinze19.github.io/TOP-React-project-4/",
+          description: "Fully functional Fullstack JavaScript e-commerce application with templating email and cross border payment support(Demo) accross 15 countries ",
+          tools: ["React", "Redux", "NodeJS", "MongoDB", "Figma"],
+        },
+        {
           name: "velocity meet",
           link: "https://velocity-meet.netlify.app",
           description:

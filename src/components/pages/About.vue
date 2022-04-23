@@ -10,9 +10,9 @@
     <h2>Who?</h2>
     <p>
       So, who is this guy, you may be wondering . well to put it simply, I am a
-      software developer obsessed with making pixel perfect interfaces for web users.
+      Fullstack JavaScript Engineer with a focus on frontend technologies and building user interfaces
       <br />
-      I write my code majorly in JavaScript and use frameworks like react and vue extensively for creating
+      I write my code majorly in JavaScript/TypeScript and use frameworks like react and vue extensively for creating
       complex frontend application logic.
       <br />
       My API's are written in NodeJs(Express). I also
@@ -34,7 +34,7 @@
     <p>
       If you have a question or want to collaborate on making products that affect millions of
       people positively?
-      <a href="mailto:arinze19@outlook.com">Say Hi 📫</a>
+      <a href="mailto:me@arinzeobi.com">Say Hi 📫</a>
     </p>
   </main>
 </template>

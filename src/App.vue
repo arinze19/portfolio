@@ -66,20 +66,21 @@ strong {
 }
 
 .container {
-  background-color: #f25f4c;
+  background-color: #e1fdf5;
   transition: all 0.3s linear;
+  color: #15372c;
 }
 
 .dark {
-  background-color: #0f0e17;
-  color: white;
+  background-color: #15372c;
+  color: #fafafa;
 }
 
 .dark a {
-  color: #ff8906;
+  color: #fafafa;
 }
 
-/* =============================== transition styling =======================    #f25f4c;  #0f0e17*/
+/* =============================== transition styling =======================  */
 .route-enter-from {
   opacity: 0;
   transform: translateY(-30px);

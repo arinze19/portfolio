@@ -75,7 +75,7 @@ nav {
   position: fixed;
   z-index: 1;
   width: 100vw;
-  background-color: #f25f4c;
+  background-color: #e1fdf5;
   transition: all 0.3s linear;
 }
 
@@ -114,15 +114,15 @@ img {
 }
 
 .border {
-  border: 1px solid #ff8906;
+  border: 1px solid #fafafa;
 }
 
 .dark {
-  background-color: #0f0e17;
+  background-color: #15372c;
 }
 
 .dark a {
-  color: #ff8906;
+  color: #fafafa;
 }
 
 .light-enter-from,

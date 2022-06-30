@@ -24,11 +24,11 @@ div {
   display: flex;
   justify-content: space-around;
   padding: 15px;
-  background-color: #f25f4c;
+  background-color: #e1fdf5;
 }
 
 .dark {
-  background-color: #0f0e17;
+  background-color: #15372c;
 }
 
 li {

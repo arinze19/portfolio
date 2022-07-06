@@ -4,11 +4,9 @@
       <div class="icon">🌪️</div>
       <h1>Hey there! I'm Arinze.</h1>
       <p>
-        A problem solving, ever learning software engineer with an eye for
-        pixel perfect designs. Also ecstatic about start-ups and looking to make an impact in
-        e-commerce and fin-tech.
+        A problem solving, ever learning software engineer with an eye for creating 
+        pixel perfect user interfaces. Also ecstatic about finance and illustrations
       </p>
-      <a href="mailto:me@arinzeobi.com"> Lets chat 📫</a>
     </div>
   </main>
 </template>

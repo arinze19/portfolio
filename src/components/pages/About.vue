@@ -22,7 +22,7 @@
     <br />
     <p>
       If you have a question or want to collaborate on a project, feel free to
-      <a href="mailto:me@arinzeobi.com">Email me 📫</a>
+      <a href="mailto:arinze19@outlook.com">Email me 📫</a>
     </p>
   </main>
 </template>

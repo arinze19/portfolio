@@ -1,14 +1,14 @@
 <template>
   <main>
     <p>
-      I'm a Fullstack JavaScript Engineer with a focus on frontend technologies and building user interfaces
+      I'm a Fullstack JavaScript Engineer with a focus on frontend development and building user interfaces
       <br />
       <br>
       I write my code majorly in JavaScript/TypeScript and use frameworks like react and vue extensively for creating
-      complex frontend application logic.
+      frontend application logic.
       <br />
       <br />
-      My API's are written in NodeJs(Express). I also
+      My API's are written in NodeJs and I also
       use noSQL and SQL based databases (MongoDB and Postgresql respectively)
     </p>
     <p>

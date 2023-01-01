@@ -1,21 +1,25 @@
 <template>
   <main>
     <p>
-      I'm a Fullstack JavaScript Engineer with a focus on frontend development and building user interfaces
-      <br />
-      <br>
-      I write my code majorly in JavaScript/TypeScript and use frameworks like react and vue extensively for creating
-      frontend application logic.
+      I'm a fullstack javascript engineer with a focus on frontend development
+      and building user interfaces
       <br />
       <br />
-      My API's are written in NodeJs and I also
-      use noSQL and SQL based databases (MongoDB and Postgresql respectively)
+      I write my code majorly in javascript/typescript and use frameworks like
+      react and vue extensively for creating frontend application logic.
+      <br />
+      <br />
+      My API's are written in node.js and I use noSQL and SQL based databases
+      (mongoDB and postgresql respectively)
     </p>
     <p>
       When I'm not deep in work related issues, i usually read about start-ups
-      <a href="https://techcrunch.com/">here 📈</a> and watch movies
-      <a href="https://netflix.com">here 🎬</a>, and a huge fan of coldplay, even
-      made a project on them <a href="https://arinze19.github.io/colddrumkit.html">here</a>. I contribute and give back to community using
+      <a href="https://techcrunch.com/" target="_blank">here 📈</a> and watch
+      movies <a href="https://netflix.com" target="_blank">here 🎬</a>, and a
+      huge fan of coldplay, even made a project on them
+      <a href="https://arinze19.github.io/colddrumkit.html" target="_blank"
+        >here</a
+      >. I contribute and give back to community using
       <a href="https://kwanda.co" target="_blank">Kwanda</a>.
     </p>
     <br />

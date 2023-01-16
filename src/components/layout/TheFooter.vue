@@ -1,19 +1,17 @@
 <template>
-  <div class="footer" :class="{dark: theme === 'light' ? false : true}">
+  <div class="footer" :class="{ dark: theme === 'light' ? false : true }">
     <router-link to="/about"> About</router-link>
     <a href="https://github.com/arinze19" target="_blank">GitHub</a>
     <router-link to="/projects"> Projects </router-link>
-    <a href="https://drive.google.com/file/d/1bz5TraL83EjYfarI5B81WG7gAqmM3_8N/view" target="_blank">Resume</a>
+    <a href="https://dev.to/arinze19">Blog</a>
   </div>
 </template>
 
-
 <script>
 export default {
-  props: ['theme'] 
-}
+  props: ['theme'],
+};
 </script>
-
 
 <style scoped>
 div {
@@ -41,4 +39,3 @@ a {
   font-size: 19px;
 }
 </style>
-

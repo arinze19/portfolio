@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import ProjectItem from "../lists/ProjectItem.vue";
+import ProjectItem from '../lists/ProjectItem.vue';
 
 export default {
   components: { ProjectItem },
@@ -22,52 +22,39 @@ export default {
     return {
       projects: [
         {
-          name: "Octane",
-          link: "https://arinze19.github.io/TOP-React-project-4/",
-          description: "Fully functional Fullstack JavaScript e-commerce application with templating email and cross border payment support(Demo) accross 15 countries ",
-          tools: ["React", "Redux", "NodeJS", "MongoDB", "Figma"],
-        },
-        {
-          name: "velocity meet",
-          link: "https://velocity-meet.netlify.app",
+          name: 'Octane',
+          link: 'https://arinze19.github.io/TOP-React-project-4/',
           description:
-            "Video conferencing software enabling peer-to-peer connection over low latency bandwidth without significant effect on quality of the media stream.",
-          tools: ["PeerJS", "NodeJS", "SocketIO", "Vue", "Axios"],
+            'Fully functional Fullstack JavaScript e-commerce application with templating email and cross border payment support(Demo) accross 15 countries ',
+          tools: ['React', 'Redux', 'NodeJS', 'MongoDB', 'Figma'],
         },
         {
-          name: "Selfish Twenty's",
-          link: "https://selfish-twentys.netlify.app",
+          name: 'Velocity meet',
+          link: 'https://velocity-meet.netlify.app',
           description:
-            "E-commerce site[Demo] for Urban wears startup brand selfish-twentys. Complete with authentication and checkout functionalities.",
-          tools: ["Vue", "Firebase", "Figma"],
+            'Video conferencing software enabling peer-to-peer connection over low latency bandwidth without significant effect on quality of the media stream.',
+          tools: ['NodeJS', 'SocketIO', 'Vue'],
         },
         {
-          name: "Pokemon Memo",
-          link: "https://pokemon-memo.netlify.app",
+          name: 'Pokemon Memo',
+          link: 'https://arinze19.github.io/TOP-React-project-3/',
           description:
-            "Interactive Pokemon inspired Memory card game with 41 active players from 4 continents. Idea from The odin project.",
-          tools: ["React", "Pokemon API"],
+            'Interactive Pokemon inspired Memory card game with 41 active players from 4 continents. Idea from The odin project.',
+          tools: ['React'],
         },
         {
-          name: "Bookmark-ER",
-          link: "http://arinze19.github.io",
+          name: 'Bookmark-ER',
+          link: 'http://arinze19.github.io/bookmark-er',
           description:
             "Browser based application for storing links you'd like to visit later. Eliminating the need to always have multiple tabs open at once. leverages localStorage API to keep bookmarks saved to the local machine",
-          tools: ["localStorage API", "Fetch API", "Vanilla JavaScript"],
+          tools: ['HTML', 'CSS', 'JavaScript'],
         },
         {
-          name: "Fast-CV",
-          link: "https://arinze19.github.io/TOP-React-project-2",
+          name: 'Fast-CV',
+          link: 'https://arinze19.github.io/TOP-React-project-2',
           description:
             "A CV generator that creates beautifully crafted CV's that convert in  minutes.",
-          tools: ["React"],
-        },
-        {
-          name: "Coach-E",
-          link: "https://vue-http-998df.firebaseapp.com",
-          description:
-            "online repository where tech newbies can connect with mentors in the software industry to better enhance their learning, skyrocket their career path and avoid tutorial hell. complete with authentication and sessions",
-          tools: ["Fetch API", "Firebase", "Vue"],
+          tools: ['React'],
         },
       ],
     };
